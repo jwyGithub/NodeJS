@@ -94,6 +94,10 @@ app.use('/api/logout', require('./routes/customer/logout'));
 app.use('/api/banner', require('./routes/customer/banner'));
 app.use('/api/send-code', require('./routes/customer/send-code'));
 app.use('/api/info', require('./routes/customer/info'));
+app.use('/api/fashion', require('./routes/customer/fashion'));
+app.use('/api/business', require('./routes/customer/business'));
+app.use('/api/current', require('./routes/customer/current'));
+app.use('/api/build', require('./routes/customer/build'));
 
 
 

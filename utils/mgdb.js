@@ -9,7 +9,7 @@ let mgdb = {
   open: function ({
     dbName,
     collectionName,
-    url = 'mongodb://wssd.f3322.net:27017'
+    url = 'mongodb://10.11.53.128:27017'
   }) {
     return new Promise((resolve, reject) => {
       mongoCt.connect(url, { useUnifiedTopology: true }, (err, client) => {
