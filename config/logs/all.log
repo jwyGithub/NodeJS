@@ -1,0 +1,367 @@
+[2019-12-21T15:05:11.358] [INFO] liveMeeting - request to webapi :  账号密码没有值走了这里
+[2019-12-21T15:06:59.776] [INFO] liveMeeting - request to webapi :  账号密码没有值走了这里
+[2019-12-21T15:08:07.460] [INFO] liveMeeting - request to webapi :  账号密码没有值走了这里
+[2019-12-21T15:08:31.906] [ERROR] liveMeeting - request to webapi :  账号密码没有值走了这里
+[2019-12-21T15:09:20.857] [DEBUG] liveMeeting - -------账号密码没有值走了这里----------
+[2019-12-21T15:10:51.450] [INFO] liveMeeting - -------账号密码没有值走了这里----------
+[2019-12-21T15:11:20.904] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2019-12-21T15:12:18.950] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2019-12-21T15:13:54.941] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2019-12-21T15:14:43.410] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2019-12-21T15:21:43.215] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:21:50.568] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test1', password: '123456' } ---------------
+[2019-12-21T15:22:23.175] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test1', password: '123456' } ---------------
+[2019-12-21T15:22:39.631] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test5', password: '123456' } ---------------
+[2019-12-21T15:22:43.460] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:24:53.944] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:24:57.310] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test1', password: '123456' } ---------------
+[2019-12-21T15:25:50.097] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test1', password: '123456' } ---------------
+[2019-12-21T15:25:57.448] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:29:41.426] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:29:41.558] [INFO] liveMeeting - -------解密后的密码是 false ------------
+[2019-12-21T15:30:52.760] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:30:53.111] [INFO] liveMeeting - -------解密后的密码是 true ------------
+[2019-12-21T15:31:23.299] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:31:23.679] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T15:31:29.695] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '1234567' } ---------------
+[2019-12-21T15:31:29.990] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2019-12-21T15:34:07.034] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '1234567' } ---------------
+[2019-12-21T15:34:07.330] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2019-12-21T15:34:11.877] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:34:31.930] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:35:54.305] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:36:48.635] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:37:28.009] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:38:09.001] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:38:46.030] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:42:14.578] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:42:14.863] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T15:43:19.622] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:43:19.916] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T15:43:19.919] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q3IiwidXNlcmlkIjoiNWRmZGM2MzM5NzMwMmEyMzg0NDczNTlhIiwiaWF0IjoxNTc2OTE0MTk5LCJleHAiOjE1NzcwODY5OTksImlzcyI6Imp3eSJ9.9H4RQzgetSYfzqeciEAyCZ52_e1Y4pvaN-t22LrZIE0--------------
+[2019-12-21T15:43:37.842] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test8', password: '123456' } ---------------
+[2019-12-21T15:43:43.934] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123458' } ---------------
+[2019-12-21T15:43:44.370] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2019-12-21T15:46:55.345] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123458' } ---------------
+[2019-12-21T15:46:55.642] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2019-12-21T15:47:01.873] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T15:47:02.071] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T15:47:02.074] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTQ0MjIsImV4cCI6MTU3NzAwMDgyMn0.XxOeg1ly-7cJAy6c7mCY0dwalryDvXdj6pAls-D1_ww--------------
+[2019-12-21T15:51:36.953] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:53:00.802] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:53:47.988] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:54:02.981] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:55:18.823] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:55:34.418] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T15:55:45.173] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T16:07:00.411] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T16:07:00.730] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T16:07:00.735] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTU2MjAsImV4cCI6MTU3NzAwMjAyMH0._9ZHsOjFmq7Fa7Th-O5Tw9p8zpRi766BzIZy3zZ6iUA--------------
+[2019-12-21T16:07:02.775] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T16:07:02.964] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T16:07:02.966] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTU2MjIsImV4cCI6MTU3NzAwMjAyMn0.osNGE1eOGZWGZUvVFlgEVSR2JBo812STj2L4lWxrk8U--------------
+[2019-12-21T16:07:03.972] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T16:07:04.458] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T16:07:04.459] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTU2MjQsImV4cCI6MTU3NzAwMjAyNH0.j1JOUCKyzhLKb39bDVoL1yPzPdv_-byg-tCqbXMggjE--------------
+[2019-12-21T16:07:05.389] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T16:07:05.627] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T16:07:05.629] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTU2MjUsImV4cCI6MTU3NzAwMjAyNX0.T_zKsZQ4wC_gK1GH7RzqvaSuG28kOsmLxiP2K5Og5iI--------------
+[2019-12-21T16:07:06.680] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test7', password: '123456' } ---------------
+[2019-12-21T16:07:07.056] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-21T16:07:07.058] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzY5MTU2MjcsImV4cCI6MTU3NzAwMjAyN30.H8q130YCME1pWNtHVeP4OIAgiFHoOOQFf0U-ugOUjm8--------------
+[2019-12-21T16:09:48.812] [INFO] liveMeeting - ----------- {} ---------------
+[2019-12-21T16:14:40.208] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:15:50.738] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:15:57.538] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T16:20:03.980] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-21T16:20:54.964] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:21:29.458] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:28:52.116] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:29:31.918] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:29:56.737] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f------------
+[2019-12-21T16:34:15.154] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-21T16:34:26.597] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f------------
+[2019-12-26T20:17:56.558] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-26T20:29:59.499] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:35:41.151] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:35:50.473] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:37:25.894] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:37:35.124] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:37:35.129] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:37:46.137] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T08:39:16.875] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:00:30.244] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:10:18.635] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:15:40.521] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:15:41.585] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:28:03.270] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:28:24.848] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:28:27.087] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:28:42.094] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:28:43.489] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:30:02.256] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:30:30.745] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:30:52.744] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:30:53.430] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:31:00.898] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:31:03.629] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:32:25.773] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:32:39.440] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:32:42.759] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:34:23.069] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:34:43.183] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T09:35:12.381] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T11:53:32.778] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T11:54:31.480] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T11:56:00.064] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T11:56:50.081] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T11:57:50.715] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:20:38.362] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:21:11.652] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:22:40.570] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:23:48.141] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:23:48.542] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:23:51.365] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:24:12.637] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:34:55.921] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:35:22.117] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:36:59.445] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:36:59.719] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:37:28.323] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:38:04.416] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:38:06.701] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:38:18.252] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:38:31.453] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:39:10.810] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:39:41.625] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:39:55.570] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:40:06.832] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:40:28.905] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:41:09.141] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:43:28.434] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:48:00.154] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:51:30.947] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:51:43.082] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:52:07.913] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:53:09.355] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:53:11.341] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:54:44.924] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:55:41.483] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:56:43.850] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:56:48.740] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:57:10.274] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:58:21.998] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:58:25.018] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T12:59:00.334] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:51:58.721] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:53:31.605] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:54:17.587] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:54:30.495] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:56:24.139] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:56:37.553] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:56:56.170] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:57:39.801] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:57:40.208] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T13:58:27.544] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:01:25.625] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:05:24.740] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:05:30.481] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:06:11.486] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:06:25.367] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:07:41.487] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:08:02.259] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:08:16.181] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:08:39.775] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:12:16.364] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:12:58.475] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:13:34.953] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:48:09.369] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:48:14.887] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:48:17.570] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:48:19.911] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:50:25.067] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:50:33.124] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T14:51:40.448] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:44:53.311] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:45:00.710] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:51:04.901] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:53:15.668] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:53:18.610] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:59:42.614] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T15:59:43.841] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:00:09.540] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:02:33.321] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:08:08.332] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:09:41.275] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:10:42.993] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T16:13:44.668] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T17:55:17.255] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:23:27.526] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:24:21.372] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:24:28.470] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:28:52.191] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:31:12.551] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:31:25.272] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:31:48.909] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:31:55.331] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:33:45.242] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:33:49.132] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:33:57.624] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:34:12.656] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:48:56.845] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T18:51:19.463] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:01:05.362] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:03:27.119] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:03:31.411] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:09:48.800] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:10:50.270] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T19:31:44.148] [INFO] liveMeeting - ---------id是5dfd91f9d8792227f0fea1f2------------
+[2019-12-27T19:32:12.887] [INFO] liveMeeting - ----------- {} ---------------
+[2019-12-27T19:32:33.633] [INFO] liveMeeting - ----------- { account: 'test1' } ---------------
+[2019-12-27T19:32:38.162] [INFO] liveMeeting - ----------- { account: 'test2' } ---------------
+[2019-12-27T19:33:11.866] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:34:27.058] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:34:40.210] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:37:05.040] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:38:10.269] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:38:10.357] [INFO] liveMeeting - ----------- 123132132121 ---------------
+[2019-12-27T19:38:49.687] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test6', password: '123456' } ---------------
+[2019-12-27T19:38:49.967] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2019-12-27T19:38:49.971] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzc0NDY3MjksImV4cCI6MTU3NzUzMzEyOX0.qJRmbu1UUT3u4Tm_G2ESf-Ogm1H7v1rlGfDYZ0cOjK4--------------
+[2019-12-27T19:39:01.042] [INFO] liveMeeting - ----------- { account: 'test6' } ---------------
+[2019-12-27T19:39:01.087] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzc0NDY3MjksImV4cCI6MTU3NzUzMzEyOX0.qJRmbu1UUT3u4Tm_G2ESf-Ogm1H7v1rlGfDYZ0cOjK4 ---------------
+[2019-12-27T20:27:20.761] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:27:54.761] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:28:06.281] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:28:14.382] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:37:21.109] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:39:01.806] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:39:01.811] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:39:03.905] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:39:03.916] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:05.235] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:05.256] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:11.572] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:11.639] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:19.877] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:19.895] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:53.261] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:53.287] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:53.713] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:53.752] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:55.810] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:40:55.821] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:41:56.637] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:41:56.647] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:41:57.307] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:41:57.320] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:42:05.982] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:42:05.999] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:42:59.702] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:42:59.722] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:43:05.352] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:43:05.364] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:43:18.443] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:43:18.449] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:08.111] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:08.156] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:11.643] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:11.661] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:35.346] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:35.348] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:51.688] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:44:51.710] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:46:46.848] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-27T20:46:46.861] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-28T09:55:30.730] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-28T09:55:30.749] [INFO] liveMeeting - ---------id是undefined------------
+[2019-12-28T09:56:28.061] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T08:53:11.781] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T08:54:16.643] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T08:54:25.761] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:18:48.667] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:34:38.279] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:35:09.294] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:35:12.195] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:35:52.745] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:36:30.462] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:36:50.807] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:37:03.138] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:37:53.924] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:41:38.091] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:42:58.068] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:42:58.073] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:04.325] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:04.397] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:31.954] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:32.000] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:34.075] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:43:34.075] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:46:12.810] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:46:12.815] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:46:16.732] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:46:16.995] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:47:33.754] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:47:33.755] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:47:48.506] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:47:48.510] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:48:08.334] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:48:08.337] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:53:05.175] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:53:05.180] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:06.807] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:06.808] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:18.043] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:18.044] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:35.342] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:35.343] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:59.560] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:54:59.561] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:55:20.783] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:55:20.785] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:56:26.383] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:56:26.460] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:56:59.322] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:56:59.385] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:57:17.670] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:57:17.670] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:57:33.222] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:57:33.223] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:58:40.257] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:58:40.258] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:58:56.513] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:58:56.760] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:59:06.093] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:59:06.094] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:59:36.709] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T09:59:36.710] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:00:35.762] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:00:35.768] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:00:47.007] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:00:47.009] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:02:55.235] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:02:55.236] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:03:22.847] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:03:22.848] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:04:00.734] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:04:00.735] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:04:12.463] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:04:12.464] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:10:22.892] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:10:22.897] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:11:06.416] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:11:06.417] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:11:32.929] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:11:32.939] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:15:43.598] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:15:43.606] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-02T10:41:02.207] [INFO] liveMeeting - -------账号密码没有值走了这里----------
+[2020-01-02T10:41:54.938] [INFO] liveMeeting - -------账号密码没有值走了这里----------
+[2020-01-02T10:42:46.263] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-02T10:43:21.059] [INFO] liveMeeting - ----------- [Object: null prototype] { account: 'test1', password: '123456' } ---------------
+[2020-01-02T10:43:21.860] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-02T10:43:21.863] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzc5MzMwMDEsImV4cCI6MTU3ODAxOTQwMX0.XqJPI4eNxRNweUIoCgOhSz_mGBIJRGSOASbQwgNuc1c--------------
+[2020-01-02T10:45:24.837] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-02T10:46:25.745] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-02T10:46:45.742] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-02T10:49:10.405] [INFO] liveMeeting - -------账号密码有值走了这里------
