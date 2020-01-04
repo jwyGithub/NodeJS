@@ -94,10 +94,15 @@ app.use('/api/logout', require('./routes/customer/logout'));
 app.use('/api/banner', require('./routes/customer/banner'));
 app.use('/api/send-code', require('./routes/customer/send-code'));
 app.use('/api/info', require('./routes/customer/info'));
-app.use('/api/fashion', require('./routes/customer/fashion'));
-app.use('/api/business', require('./routes/customer/business'));
-app.use('/api/current', require('./routes/customer/current'));
-app.use('/api/build', require('./routes/customer/build'));
+// 首页列表
+app.use('/api/list/fashion', require('./routes/customer/fashion'));
+app.use('/api/list/business', require('./routes/customer/business'));
+app.use('/api/list/current', require('./routes/customer/current'));
+app.use('/api/list/build', require('./routes/customer/lists-build'));
+
+// 导航分类
+app.use('/api/item/:type', require('./routes/customer/items/item-brand'));
+
 
 
 
