@@ -8,7 +8,7 @@ var config = require('../config/server')
 var baseUrl, mongoPort;
 
 if (config.local.open) {
-  baseUrl = config.local.baseUrl;
+  baseUrl = config.local.mongobaseUrl;
   mongoPort = config.local.mongoPort;
 } else if (config.http.open) {
   baseUrl = config.local.baseUrl;

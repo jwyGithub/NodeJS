@@ -33,6 +33,8 @@ router.post("/", (req, res, next) => {
             req.files[0].path,
             req.files[0].path + pathLib.parse(req.files[0].originalname).ext
         )
+        console.log(req.files[0].filename)
+        console.log(req.files[0].originalname)
         icon = '/upload/user/' + req.files[0].filename + pathLib.parse(req.files[0].originalname).ext
     } else {
         icon = '/upload/user/default.jpg';
@@ -83,9 +85,9 @@ router.post("/", (req, res, next) => {
                             }
                         })
                     } else {
-                        // //删除上传后的头像
+                        //删除上传后的头像
                         // if (icon.indexOf('noimage') === -1) {
-                        //     fs.unlinkSync('./public' + icon)
+                        //     fs.unlinkSync('/public' + icon)
                         // }
                         res.send({ code: 400, msg: '用户名已存在' });//返回的数据是个对象
                     }

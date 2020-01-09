@@ -34,8 +34,8 @@ router.get("/", (req, res, next) => {
                             logger.info("-----------", token, "---------------")
                             // 解密token
                             // jwt.verify(token).then(res=>console.log(res))
-                            
-                            res.send(result)
+                            delete result[0].password;
+                            res.send(result[0])
                         }else{
                             res.send({
                                 code: 400,
