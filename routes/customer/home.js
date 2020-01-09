@@ -10,7 +10,7 @@ router.get("/", (req, res, next) => {
     // 查列表
     if (!_id) {
         mgdb.find({
-            collectionName: "home",
+            collectionName: "Home",
             ...req.query
         }).then(
             result => res.send(result)

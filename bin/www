@@ -11,8 +11,28 @@ var http = require('http');
 /**
  * Get port from environment and store in Express.
  */
+var config = require('../config/server')
 
-var port = normalizePort(process.env.PORT || '3000');
+var http, port, server;
+
+if (config.local.open) {
+  http = require('http');
+  port = config.local.port;
+  server = http.createServer(app);
+} else if (config.http.open) {
+  http = require('http');
+  port = config.http.port;
+  server = http.createServer(app);
+} else if (config.https.open) {
+  http = require('https');
+  port = config.https.port;
+  var options = {
+    key: fs.readFileSync('./bin/1826016_uncle9.top.key'),
+    cert: fs.readFileSync('./bin/1826016_uncle9.top.pem'),
+  };
+  server = http.createServer(options, app);
+}
+
 app.set('port', port);
 
 /**

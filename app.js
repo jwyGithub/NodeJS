@@ -21,8 +21,8 @@ app.use(httpLogger);
 @Parma 跨域配置
 */
 app.use(cors({
-	"origin":"*",
-	"methods":"GET,HEAD,PUT,PATCH,POST,DELETE"
+	"origin": "*",
+	"methods": "GET,HEAD,PUT,PATCH,POST,DELETE"
 }))
 
 /*
@@ -68,7 +68,7 @@ app.use(express.urlencoded({ extended: false }));
 @Parma customer:客户端
 @Parma mange:管理端
 */
-app.use(express.static(path.join(__dirname, 'public', 'customer')));
+app.use(express.static(path.join(__dirname, 'public', 'dist')));
 app.use('/mange', express.static(path.join(__dirname, 'public', 'mange')));
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -95,15 +95,20 @@ app.use('/api/banner', require('./routes/customer/banner'));
 app.use('/api/send-code', require('./routes/customer/send-code'));
 app.use('/api/info', require('./routes/customer/info'));
 // 首页列表
-app.use('/api/list/fashion', require('./routes/customer/fashion'));
-app.use('/api/list/business', require('./routes/customer/business'));
-app.use('/api/list/current', require('./routes/customer/current'));
-app.use('/api/list/build', require('./routes/customer/lists-build'));
+app.use('/api/list/:type', require('./routes/customer/home/nav'));
 
 // 导航分类
-app.use('/api/item/:type', require('./routes/customer/items/item-brand'));
+app.use('/api/item', require('./routes/customer/items/item'));
 
+// 热门搜索关键字
+app.use('/api/keywords', require('./routes/customer/search/search'));
+app.use('/api/history', require('./routes/customer/search/history'));
 
+// 商品详情
+app.use('/api/goodsinfo', require('./routes/customer/goodsInfo/goodsInfo'));
+
+// 购物车详情
+app.use('/api/carinfo', require('./routes/customer/carInfo/carinfo'));
 
 
 
@@ -123,10 +128,19 @@ app.use(function (err, req, res, next) {
 	// render the error page
 	res.status(err.status || 500);
 	// res.render('error');
-	res.send({
-		err: 1,
-		msg: '不存在的接口名'
-	})
+	if (req.url.includes('/api')) {
+		// console.log('1');
+		res.send({
+			err: 1,
+			msg: '不存在的接口名'
+		})
+	} else if (req.url.includes('/admin')) {
+		// console.log(2);
+		res.render('error');
+	} else {
+		// console.log(3);
+		res.sendFile(path.join(__dirname, 'public', 'dist', 'index.html'));
+	}
 });
 
 module.exports = app;

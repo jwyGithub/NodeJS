@@ -3,13 +3,32 @@ let mongodb = require('mongodb');//1.引入模块
 let mongoCt = mongodb.MongoClient;
 let ObjectId = mongodb.ObjectId;
 
+var config = require('../config/server')
+
+var baseUrl, mongoPort;
+
+if (config.local.open) {
+  baseUrl = config.local.baseUrl;
+  mongoPort = config.local.mongoPort;
+} else if (config.http.open) {
+  baseUrl = config.local.baseUrl;
+  mongoPort = config.http.mongoPort;
+} else if (config.https.open) {
+  http = require('https');
+  mongoPort = config.https.mongoPort;
+  var options = {
+    key: fs.readFileSync('./bin/1826016_uncle9.top.key'),
+    cert: fs.readFileSync('./bin/1826016_uncle9.top.pem'),
+  };
+}
+
 
 let mgdb = {
 
   open: function ({
     dbName,
     collectionName,
-    url = 'mongodb://10.11.53.128:27017'
+    url = `mongodb://${baseUrl}:${mongoPort}`
   }) {
     return new Promise((resolve, reject) => {
       mongoCt.connect(url, { useUnifiedTopology: true }, (err, client) => {
