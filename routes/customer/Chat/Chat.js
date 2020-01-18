@@ -4,9 +4,11 @@ let mgdb = require('../../../utils/mgdb');
 
 // 查询数据
 router.get("/", (req, res, next) => {
+    console.log(req.body)
+    console.log(req.header)
     mgdb.open({
         dbName: 'test',
-        collectionName: 'CarInfo'
+        collectionName: 'Chat'
     }).then(
         ({ collection, client }) => {
             collection.find({ user: req.query.user }).toArray((err, result) => {
@@ -88,48 +90,10 @@ router.post("/", (req, res, next) => {
                 }
                 client.close();
             })
-
-
-
-
-
-            //     collection.insertOne({
-            //         "id": req.body.id,
-            //         "user": req.body.user,
-            //         "name": req.body.name,
-            //         "img": req.body.img,
-            //         "price": req.body.price,
-            //         "buyCount": req.body.buyCount,
-            //         "orderYearCount": req.body.orderYearCount,
-            //         "startDate": req.body.startDate
-            //     }, (err, result) => {
-            //         if (err) {
-            //             res.send({
-            //                 code: 400,
-            //                 msg: "新增失败"
-            //             })
-            //         } else {
-            //             res.send({
-            //                 code: 200,
-            //                 msg: result.ops
-            //             })
-            //         }
-            //         client.close();
-            //     })
-
         })
 
 })
 
-
-// 详情
-router.get('/:_id', (req, res, next) => {
-    mgdb.find({ collectionName: `Items-${req.query.dataName}`, _id: req.params._id }).then(
-        result => res.send(result)
-    ).catch(
-        err => res.send(err)
-    )
-})
 
 
 

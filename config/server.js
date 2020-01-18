@@ -8,9 +8,9 @@ module.exports = {
   },
   http: {
     open: false,
-    baseUrl: "wssd.f3322.net",
+    baseUrl: "s25.natfrp.com",
     mongoPort: 27017,
-    port: 80
+    port: 8080
   },
   https: {
     open: false,

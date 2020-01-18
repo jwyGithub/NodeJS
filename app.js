@@ -110,6 +110,8 @@ app.use('/api/goodsinfo', require('./routes/customer/goodsInfo/goodsInfo'));
 // 购物车详情
 app.use('/api/carinfo', require('./routes/customer/carInfo/carinfo'));
 
+// react 对话功能
+app.use('/api/chat', require('./routes/customer/Chat/Chat'));
 
 
 /*

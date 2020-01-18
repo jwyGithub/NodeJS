@@ -2863,3 +2863,148 @@
 [2020-01-09T19:22:31.878] [INFO] liveMeeting - ---------要查询的name是brand------------
 [2020-01-09T19:22:32.399] [INFO] liveMeeting - ---------id是undefined------------
 [2020-01-09T19:22:32.598] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:58:45.146] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:58:45.155] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:58:50.756] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:58:50.757] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:59:23.468] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T08:59:23.469] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T09:50:49.875] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T09:50:49.878] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T11:29:07.091] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T11:29:07.104] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:34:37.348] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:34:37.700] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:34:37.703] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:34:40.253] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:34:40.331] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:34:41.816] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:34:42.978] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:34:42.979] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:35:14.372] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:35:14.374] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:35:15.208] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:35:15.828] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:35:15.830] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:36:39.938] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:36:41.127] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:36:41.128] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:36:41.704] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:36:41.705] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:42:32.222] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:42:33.680] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:42:33.682] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:42:57.038] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:42:57.552] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:42:57.553] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:42:59.623] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:42:59.624] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:00.951] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:00.953] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:02.464] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:43:02.983] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:43:02.985] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:43:04.544] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:04.545] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:10.404] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:43:10.407] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T13:43:10.955] [INFO] liveMeeting - ---------要查询的name是brand------------
+[2020-01-11T13:43:11.683] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:43:11.686] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:44:03.862] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T13:44:03.865] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:07:19.201] [INFO] liveMeeting - -------账号密码没有值走了这里----------
+[2020-01-11T14:07:24.219] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T14:07:36.456] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123456' } ---------------
+[2020-01-11T14:07:36.536] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T14:07:36.539] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjI4NTYsImV4cCI6MTU3ODgwOTI1Nn0._Zo5hOxzKZQ0131IKN5WniWy2JR5mWCneq8A3mUMR8Y--------------
+[2020-01-11T14:10:23.133] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123456' } ---------------
+[2020-01-11T14:10:23.216] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T14:10:23.216] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjMwMjMsImV4cCI6MTU3ODgwOTQyM30.Me3Mug9lkDBAmW0Y12y3JrBdFoaaae_LYEh1bxNIOjE--------------
+[2020-01-11T14:10:38.951] [INFO] liveMeeting - ----------- { account: '15252866412', password: 'qqweqw' } ---------------
+[2020-01-11T14:10:39.034] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T14:10:44.543] [INFO] liveMeeting - ----------- { account: '15252866412', password: '213213213112' } ---------------
+[2020-01-11T14:10:44.626] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T14:25:36.011] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123456' } ---------------
+[2020-01-11T14:25:36.094] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T14:25:36.094] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjM5MzYsImV4cCI6MTU3ODgxMDMzNn0.kaIzYl5c5QZ6Szg0mGKyPwzOyhcxEWT-FjU49e8CCJ8--------------
+[2020-01-11T14:28:43.623] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:28:43.670] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:33:18.263] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:33:18.265] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:53:33.165] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123456' } ---------------
+[2020-01-11T14:53:33.268] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T14:53:33.271] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjU2MTMsImV4cCI6MTU3ODgxMjAxM30.1Ix10OFZ1ASA1T8F8QWwFmmOpc9zAMWs81qVTW4VcNI--------------
+[2020-01-11T14:53:36.120] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:53:36.132] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:53:38.460] [INFO] liveMeeting - ---------要查询的name是fashion------------
+[2020-01-11T14:53:39.699] [INFO] liveMeeting - ---------商品id是103140------------
+[2020-01-11T14:53:47.698] [INFO] liveMeeting - ---------查询不到------------
+[2020-01-11T14:53:55.061] [INFO] liveMeeting - --------有这个客户------------
+[2020-01-11T14:53:57.831] [INFO] liveMeeting - --------有这个客户------------
+[2020-01-11T14:54:55.674] [INFO] liveMeeting - --------有这个客户------------
+[2020-01-11T14:56:21.165] [INFO] liveMeeting - ---------要查询的name是fashion------------
+[2020-01-11T14:56:22.724] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T14:56:22.727] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:31:03.330] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:31:34.065] [INFO] liveMeeting - -------账号密码没有值走了这里----------
+[2020-01-11T15:31:46.998] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:31:56.898] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:31:59.414] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:32:03.132] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:32:07.454] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:32:14.070] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:35:56.819] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:36:03.066] [INFO] liveMeeting - ----------- { account: '15252866412', password: '1' } ---------------
+[2020-01-11T15:36:03.150] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:36:06.467] [INFO] liveMeeting - ----------- { account: '15252866412', password: '1' } ---------------
+[2020-01-11T15:36:06.547] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:39:19.307] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:39:24.764] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123' } ---------------
+[2020-01-11T15:39:24.849] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:40:33.907] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123' } ---------------
+[2020-01-11T15:40:33.999] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:40:34.733] [INFO] liveMeeting - ----------- { account: '15252866412', password: '123' } ---------------
+[2020-01-11T15:40:34.817] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:41:16.606] [INFO] liveMeeting - ----------- [Object: null prototype] { account: '15252866412', password: '123' } ---------------
+[2020-01-11T15:41:16.696] [INFO] liveMeeting - -------解密后的密码结果 false ------------
+[2020-01-11T15:41:46.771] [INFO] liveMeeting - ----------- [Object: null prototype] { account: '123', password: '123' } ---------------
+[2020-01-11T15:42:00.276] [INFO] liveMeeting - -------账号密码有值走了这里------
+[2020-01-11T15:42:08.141] [INFO] liveMeeting - ----------- [Object: null prototype] { account: '123', password: '123' } ---------------
+[2020-01-11T15:42:08.229] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T15:42:08.232] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3Mjg1MjgsImV4cCI6MTU3ODgxNDkyOH0.6CCoIAnifQ8u1j2DQ61BdiC78jtqg1PllfkveRoVl1c--------------
+[2020-01-11T15:42:26.682] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T15:42:26.684] [INFO] liveMeeting - ---------要查询的name是undefined------------
+[2020-01-11T15:42:33.388] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:42:33.391] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:43:49.276] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:43:49.309] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:47:31.596] [INFO] liveMeeting - ----------- { account: 'null' } ---------------
+[2020-01-11T15:47:38.127] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:47:38.131] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjU2MTMsImV4cCI6MTU3ODgxMjAxM30.1Ix10OFZ1ASA1T8F8QWwFmmOpc9zAMWs81qVTW4VcNI ---------------
+[2020-01-11T15:47:46.312] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:47:46.316] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjU2MTMsImV4cCI6MTU3ODgxMjAxM30.1Ix10OFZ1ASA1T8F8QWwFmmOpc9zAMWs81qVTW4VcNI ---------------
+[2020-01-11T15:49:32.150] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:49:32.152] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:49:37.384] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:49:37.385] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:50:11.682] [INFO] liveMeeting - ----------- { account: '123', password: '123' } ---------------
+[2020-01-11T15:50:11.762] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T15:50:11.762] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwMTEsImV4cCI6MTU3ODgxNTQxMX0.AQ7opQlb16-F3fizkgTJVO6hEOV1i6xmEgQiVipKhe8--------------
+[2020-01-11T15:50:11.919] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:50:11.923] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwMTEsImV4cCI6MTU3ODgxNTQxMX0.AQ7opQlb16-F3fizkgTJVO6hEOV1i6xmEgQiVipKhe8 ---------------
+[2020-01-11T15:50:19.047] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:50:19.049] [INFO] liveMeeting - ---------id是undefined------------
+[2020-01-11T15:50:20.359] [INFO] liveMeeting - ---------要查询的name是business------------
+[2020-01-11T15:50:22.354] [INFO] liveMeeting - ---------商品id是100055------------
+[2020-01-11T15:50:30.220] [INFO] liveMeeting - ---------查询不到------------
+[2020-01-11T15:50:32.901] [INFO] liveMeeting - ---------要查询的name是business------------
+[2020-01-11T15:50:39.292] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:50:39.297] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwMTEsImV4cCI6MTU3ODgxNTQxMX0.AQ7opQlb16-F3fizkgTJVO6hEOV1i6xmEgQiVipKhe8 ---------------
+[2020-01-11T15:50:47.042] [INFO] liveMeeting - ----------- { account: '123', password: '123' } ---------------
+[2020-01-11T15:50:47.123] [INFO] liveMeeting - -------解密后的密码结果 true ------------
+[2020-01-11T15:50:47.123] [INFO] liveMeeting - -------------eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwNDcsImV4cCI6MTU3ODgxNTQ0N30.X76IZ_KS09wpYlVrkc33D-7S_ZxdVY9Docx2E9W9bvM--------------
+[2020-01-11T15:50:47.208] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:50:47.212] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwNDcsImV4cCI6MTU3ODgxNTQ0N30.X76IZ_KS09wpYlVrkc33D-7S_ZxdVY9Docx2E9W9bvM ---------------
+[2020-01-11T15:51:10.089] [INFO] liveMeeting - ----------- { account: '123' } ---------------
+[2020-01-11T15:51:10.095] [INFO] liveMeeting - ----------- eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1Nzg3MjkwNDcsImV4cCI6MTU3ODgxNTQ0N30.X76IZ_KS09wpYlVrkc33D-7S_ZxdVY9Docx2E9W9bvM ---------------
