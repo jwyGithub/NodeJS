@@ -5,7 +5,8 @@ let multer = require("multer");
 let logger = require('morgan');
 global.logger = require('./config/log').logger;
 httpLogger = require('./config/log').httpLogger;
-var cors = require('cors')
+var cors = require('cors');
+
 
 /* 
 @Parma 创建服务器
@@ -111,7 +112,13 @@ app.use('/api/goodsinfo', require('./routes/customer/goodsInfo/goodsInfo'));
 app.use('/api/carinfo', require('./routes/customer/carInfo/carinfo'));
 
 // react 对话功能
-app.use('/api/chat', require('./routes/customer/Chat/Chat'));
+app.use('/react/chat', require('./routes/customer/chat/chat'));
+app.use('/react/userinfo', require('./routes/react/my/userinfo'));
+app.use('/react/actions', require('./routes/react/actions/actions'));
+
+
+
+
 
 
 /*

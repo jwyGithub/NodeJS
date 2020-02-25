@@ -17,7 +17,7 @@ router.get("/", (req, res, next) => {
     } else {
         // 连接数据库
         mgdb.open({
-            dbName: 'test',
+            dbName: 'react',
             collectionName: 'user'
         }).then(
             ({ collection, client }) => {

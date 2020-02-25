@@ -57,7 +57,7 @@ let mgdb = {
   //查询  列表|详情
   find: function ({
     collectionName,
-    dbName = "test",
+    dbName = "react",
     _id = null,
     _page, _limit, q, _sort
   }) {
