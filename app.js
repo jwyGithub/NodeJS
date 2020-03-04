@@ -111,10 +111,13 @@ app.use('/api/goodsinfo', require('./routes/customer/goodsInfo/goodsInfo'));
 // 购物车详情
 app.use('/api/carinfo', require('./routes/customer/carInfo/carinfo'));
 
-// react 对话功能
+// react 
 app.use('/react/chat', require('./routes/customer/chat/chat'));
 app.use('/react/userinfo', require('./routes/react/my/userinfo'));
 app.use('/react/actions', require('./routes/react/actions/actions'));
+app.use('/react/login', require('./routes/react/login/login'));
+app.use('/react/reg', require('./routes/react/reg/reg'));
+
 
 
 
