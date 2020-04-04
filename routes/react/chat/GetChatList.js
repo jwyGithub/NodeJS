@@ -2,16 +2,17 @@ let router = require('express').Router();
 let mgdb = require('../../../utils/mgdb');
 
 
+
 router.get("/", (req, res, next) => {
-    let { openid } = req.query
+    // console.log(req.body)
 
     mgdb.open({
         dbName: "React",
-        collectionName: "UserInfo"
+        collectionName: "ChatList"
     }).then(
         ({ collection, client }) => {
             // 查询数据库
-            collection.find({ openid }).toArray((err, result) => {
+            collection.find().toArray((err, result) => {
                 if (err) {
                     res.send({
                         code: 400,
@@ -19,8 +20,8 @@ router.get("/", (req, res, next) => {
                     })
                 } else {
                     res.send({
-                        code: 200,
-                        detail: result[0]
+                        code: 200.,
+                        data: result
                     })
 
                 }
@@ -28,8 +29,13 @@ router.get("/", (req, res, next) => {
             })
         }
     )
-
 })
+
+
+
+
+
+
 
 
 module.exports = router;

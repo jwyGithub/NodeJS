@@ -111,9 +111,36 @@ app.use('/api/goodsinfo', require('./routes/customer/goodsInfo/goodsInfo'));
 // 购物车详情
 app.use('/api/carinfo', require('./routes/customer/carInfo/carinfo'));
 
-// react 
-app.use('/react/chat', require('./routes/customer/chat/chat'));
-app.use('/react/userinfo', require('./routes/react/my/userinfo'));
+/*
+@Parma 获取聊天列表
+*/
+app.use('/react/chat', require('./routes/react/chat/GetChatList'));
+/*
+@Parma 获取好友列表
+*/
+app.use('/react/friends', require('./routes/react/Friends/GetFriends'));
+//发送对话
+app.use('/react/send', require('./routes/react/chat/sendMessage'));
+
+/*
+@Parma 根据条件获取用户详情
+*/
+app.use('/react/getuserinfo', require('./routes/react/GetUserInfo/GetUserInfo'));
+
+/*
+@Parma 搜索好友
+*/
+app.use('/react/search', require('./routes/react/addfriend/addfriend'));
+
+/*
+@Parma 添加到通讯录
+*/
+app.use('/react/addbook', require('./routes/react/addbook/addbook'));
+
+
+
+
+
 app.use('/react/actions', require('./routes/react/actions/actions'));
 app.use('/react/login', require('./routes/react/login/login'));
 app.use('/react/reg', require('./routes/react/reg/reg'));

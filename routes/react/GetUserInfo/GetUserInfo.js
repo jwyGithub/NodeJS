@@ -3,15 +3,21 @@ let mgdb = require('../../../utils/mgdb');
 
 
 router.get("/", (req, res, next) => {
-    let { openid } = req.query
+    console.log(req.query)
+
+    let { type, openid } = req.query
+
+    let ziduan = req.query.openid ? req.query.openid : req.query.name
+
+    let sec = { [type]: ziduan }
 
     mgdb.open({
         dbName: "React",
-        collectionName: "UserInfo"
+        collectionName: "User"
     }).then(
         ({ collection, client }) => {
             // 查询数据库
-            collection.find({ openid }).toArray((err, result) => {
+            collection.find(sec).toArray((err, result) => {
                 if (err) {
                     res.send({
                         code: 400,

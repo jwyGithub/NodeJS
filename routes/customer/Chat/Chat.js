@@ -5,7 +5,7 @@ let mgdb = require('../../../utils/mgdb');
 // 发送对话
 router.post("/", (req, res, next) => {
     // console.log(req.body)
-    console.log(req.headers)
+
     let { token } = req.headers
     if (!token) {
         res.send({
@@ -14,7 +14,14 @@ router.post("/", (req, res, next) => {
         })
     } else {
         let io = require('../../../bin/www')
-        io.emit('mess_type', { data: {...req.headers} })//推送
+        io.emit('mess_type', { data: "1" })//推送
+        io.emit('message_info', {
+            list: [
+                { text: "1" },
+                { text: "2" },
+                { text: "3" },
+            ]
+        })//推送
 
     }
 

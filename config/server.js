@@ -1,13 +1,13 @@
 module.exports = {
   local: {
-    open: false,
+    open: true,
     baseUrl: "localhost",
-    mongobaseUrl: "34.92.230.15",
+    mongobaseUrl: "jwycloud.xyz",
     mongoPort: 27017,
     port: 3001
   },
   http: {
-    open: true,
+    open: false,
     baseUrl: "jwycloud.xyz",
     mongoPort: 27017,
     port: 3001

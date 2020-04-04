@@ -19,7 +19,7 @@ router.post("/", (req, res, next) => {
         return
     }
     mgdb.open({
-        dbName:"test",
+        dbName:"React",
         collectionName:"User"
     }).then(
         ({ collection, client }) => {
@@ -36,6 +36,7 @@ router.post("/", (req, res, next) => {
                        if(result[0].username == username && result[0].password == password){
                            res.send({
                                code:200,
+                               openid:result[0].openid,
                                msg:"登陆成功"
                            })
                        }
